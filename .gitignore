@@ -1,0 +1,6 @@
+**/img
+*.png
+*.svg
+*.xd
+*.pdf
+*.DS_Store
