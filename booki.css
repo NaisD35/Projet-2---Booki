@@ -45,39 +45,41 @@ header .container
 
 .logo img
 {
-    width: 100px;
+    width: 120px;
     margin-left: 15px;
 }
 
 .nav ul    
 {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding-left: 0;
-    margin-right: 100px;
 }
 
 .nav li
 {
-    padding-right: 90px;
     list-style-type: none;
 }
 
 nav a 
 {
-    padding-left: 50px;
-    padding-right: 50px;
     padding-top: 83px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 nav a.active
 {
     border-top: solid 3px #0065fc;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 80px;
 }
 
 nav a:hover
 {
     border-top: solid 3px #0065fc;
+    color: #0065fc;
 }
 
 
@@ -453,7 +455,6 @@ input /*Formulaire*/
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 30px;
     height: 80%;
 }
 
@@ -486,14 +487,19 @@ input /*Formulaire*/
 
 .plus   
 {
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 
+.plus a {
+    font-size: 20px;
+    font-weight: 700;
+}
 .populaire
 {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    padding-right: 20px;
     height: 830px;
 }
 
@@ -515,7 +521,6 @@ input /*Formulaire*/
 
 .aside
 {
-    width: calc(100% - 14px);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -975,5 +980,25 @@ tout ce qui est en dessous de 768 pour les téléphones portables.*/
     .info {
         margin-top: 25px;
         margin-bottom: 40px;
+    }
+
+    .colonne {
+        height: 230px;
+    }
+
+    .col {
+        padding-bottom: 25px;
+    }
+
+    .double {
+        height: auto;
+    }
+
+    .double img {
+        height: 170px;
+    }
+
+    .double h3 {
+        padding-bottom: 10px  ;
     }
 }
