@@ -780,7 +780,7 @@ tout ce qui est en dessous de 768 pour les téléphones portables.*/
 
     nav a:hover
     {
-        display: none;
+        border-top: none;
     }
 
     nav a.active::after {
