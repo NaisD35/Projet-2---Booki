@@ -160,12 +160,6 @@ input /*Formulaire*/
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-left: 15px;
-}
-
-#filtres
-{
-    margin-bottom: 50px;
 }
 
 .filtres
@@ -180,6 +174,11 @@ input /*Formulaire*/
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 20px;
+}
+
+#filtres {
+    margin: 0;
+    margin-right: 40px;
 }
 
 
@@ -481,7 +480,7 @@ input /*Formulaire*/
 }
 
 .lien h3, p {
-    margin: 10px auto;
+    margin: 0 auto;
     padding-left: 10px;
 }
 
@@ -927,6 +926,20 @@ tout ce qui est en dessous de 768 pour les téléphones portables.*/
 
 @media screen and (max-width: 480px) {
 
+    header .container
+    {
+        width: 480px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a.active {
+        margin-right: inherit;
+    }
+
     .search_data {
         width: 100%;
         padding-left: 20px;
@@ -955,31 +968,49 @@ tout ce qui est en dessous de 768 pour les téléphones portables.*/
         margin-left: -15px;
     }
 
-    .filtres {
-        justify-content: space-between;
-    }
-
     .filtres div {
         width: inherit;
         margin: 0;
         margin-bottom: 20px;
+        margin-right: 10px;
     }
 
     .filtres p {
         max-width: inherit;
     }
 
-    .eco p {
-        padding-right: 15px;
-    }
-
     .filtres a p {
         font-size: 17px;
     }
 
+    #filtres {
+        margin: 0;
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .eco p {
+        padding-right: 15px;
+    }
+
+
     .info {
         margin-top: 25px;
         margin-bottom: 40px;
+    }
+
+    .background i {
+        padding-top: 10px;
+    }
+
+    .background i:first-of-type {
+        padding-left: 10px;
+    }
+
+    .lien h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .colonne {
@@ -1001,4 +1032,9 @@ tout ce qui est en dessous de 768 pour les téléphones portables.*/
     .double h3 {
         padding-bottom: 10px;
     }
+
+    .bloc {
+        margin: 0;
+    }
+
 }
