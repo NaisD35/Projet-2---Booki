@@ -432,6 +432,9 @@ input /*Formulaire*/
     background-color: #f2f2f2;
     border-radius: 30px;
 }
+.background i:first-of-type {
+    padding-left: 10px;
+}
 
 .column
 {
@@ -482,6 +485,7 @@ input /*Formulaire*/
 .lien h3, p {
     margin: 0 auto;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .plus   
@@ -513,6 +517,10 @@ input /*Formulaire*/
     margin-bottom: 15px;
 }
 
+.fav h2 {
+    padding-left: 10px;
+}
+
 .fav i
 {
     font-size: 25px;
@@ -534,6 +542,7 @@ input /*Formulaire*/
     margin-bottom: 15px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
 }
 
 .aside .lien
@@ -577,7 +586,6 @@ input /*Formulaire*/
 .desc
 {
     flex: 1 ;
-    padding-left: 25px;
 }
 
 .desc h3
